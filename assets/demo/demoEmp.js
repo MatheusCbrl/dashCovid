@@ -645,31 +645,31 @@ demo = {
     var myChartData5 = new Chart(ctx, config);
     $('#0').click(function () {
       var data = myChartData5.config.data;
-      data.datasets[0].data = chart_data;
+      data.datasets[0].data = chart_data5;
       data.labels = chart_labels;
       myChartData5.update();
     });
     //RIO DE JANEIRO AFASTADOS
     $('#1').click(function () {
-      var chart_data2 = [31, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data5 = [31, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData5.config.data;
-      data.datasets[0].data = chart_data2;
+      data.datasets[0].data = chart_data5;
       data.labels = chart_labels;
       myChartData5.update();
     });
     //SÃO MATEUS AFASTADOS
     $('#2').click(function () {
-      var chart_data2 = [11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data5 = [11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData5.config.data;
-      data.datasets[0].data = chart_data2;
+      data.datasets[0].data = chart_data5;
       data.labels = chart_labels;
       myChartData5.update();
     });
     //EMPRESA AFASTADOS
     $('#3').click(function () {
-      var chart_data2 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data5 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData5.config.data;
-      data.datasets[0].data = chart_data2;
+      data.datasets[0].data = chart_data5;
       data.labels = chart_labels;
       myChartData5.update();
     });
@@ -734,31 +734,31 @@ demo = {
     var myChartData1 = new Chart(ctx, config);
     $('#0').click(function () {
       var data = myChartData1.config.data;
-      data.datasets[0].data = chart_data;
+      data.datasets[0].data = chart_data1;
       data.labels = chart_labels;
       myChartData1.update();
     });
     //RIO DE JANEIRO RECUPERADOS
     $('#1').click(function () {
-      var chart_data2 = [29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data1 = [29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData1.config.data;
-      data.datasets[0].data = chart_data2;
+      data.datasets[0].data = chart_data1;
       data.labels = chart_labels;
       myChartData1.update();
     });
     //SÃO MATEUS RECUPERADOS
     $('#2').click(function () {
-      var chart_data2 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data1 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData1.config.data;
-      data.datasets[0].data = chart_data2;
+      data.datasets[0].data = chart_data1;
       data.labels = chart_labels;
       myChartData1.update();
     });
     //EMPRESA AFASTADOS
     $('#3').click(function () {
-      var chart_data2 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data1 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData1.config.data;
-      data.datasets[0].data = chart_data2;
+      data.datasets[0].data = chart_data1;
       data.labels = chart_labels;
       myChartData1.update();
     });
@@ -822,7 +822,7 @@ demo = {
     var myChartData2 = new Chart(ctx, config);
     $('#0').click(function () {
       var data = myChartData2.config.data;
-      data.datasets[0].data = chart_data;
+      data.datasets[0].data = chart_data2;
       data.labels = chart_labels;
       myChartData2.update();
     });
@@ -910,31 +910,31 @@ demo = {
     var myChartData3 = new Chart(ctx, config);
     $('#0').click(function () {
       var data = myChartData3.config.data;
-      data.datasets[0].data = chart_data;
+      data.datasets[0].data = chart_data3;
       data.labels = chart_labels;
       myChartData3.update();
     });
     //RIO DE JANEIRO CASOS UTI
     $('#1').click(function () {
-      var chart_data2 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data3 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData3.config.data;
-      data.datasets[0].data = chart_data2;
+      data.datasets[0].data = chart_data3;
       data.labels = chart_labels;
       myChartData3.update();
     });
     //SÃO MATEUS CASOS UTI
     $('#2').click(function () {
-      var chart_data2 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data3 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData3.config.data;
-      data.datasets[0].data = chart_data2;
+      data.datasets[0].data = chart_data3;
       data.labels = chart_labels;
       myChartData3.update();
     });
     //EMPRESA CASOS UTI
     $('#3').click(function () {
-      var chart_data2 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data3 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData3.config.data;
-      data.datasets[0].data = chart_data2;
+      data.datasets[0].data = chart_data3;
       data.labels = chart_labels;
       myChartData3.update();
     });
@@ -999,31 +999,31 @@ demo = {
     var myChartData4 = new Chart(ctx, config);
     $('#0').click(function () {
       var data = myChartData4.config.data;
-      data.datasets[0].data = chart_data;
+      data.datasets[0].data = chart_data4;
       data.labels = chart_labels;
       myChartData4.update();
     });
     //RIO DE JANEIRO CASOS DE ÓBITOS
     $('#1').click(function () {
-      var chart_data2 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data4 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData4.config.data;
-      data.datasets[0].data = chart_data2;
+      data.datasets[0].data = chart_data4;
       data.labels = chart_labels;
       myChartData4.update();
     });
     //SÃO MATEUS CASOS DE ÓBITOS
     $('#2').click(function () {
-      var chart_data2 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data4 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData4.config.data;
-      data.datasets[0].data = chart_data2;
+      data.datasets[0].data = chart_data4;
       data.labels = chart_labels;
       myChartData4.update();
     });
     //EMPRESA CASOS DE ÓBITOS
     $('#3').click(function () {
-      var chart_data2 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data4 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData4.config.data;
-      data.datasets[0].data = chart_data2;
+      data.datasets[0].data = chart_data4;
       data.labels = chart_labels;
       myChartData4.update();
     });
