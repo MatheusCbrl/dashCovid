@@ -22,7 +22,7 @@ demo = {
     gradientChartOptionsConfiguration = {
       maintainAspectRatio: false,
       legend: {
-        display: false,
+        display: true,
       },
       tooltips: {
         bodySpacing: 4,
@@ -117,7 +117,7 @@ demo = {
             fill: true,
             backgroundColor: gradientFill,
             borderWidth: 2,
-            data: [542, 480, 430, 550, 530, 453, 380, 434, 568, 610, 700, 630],
+            data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
           },
         ],
       },
@@ -644,31 +644,31 @@ demo = {
     var myChartData1 = new Chart(ctx, config);
     $('#0').click(function () {
       var data = myChartData1.config.data;
-      data.datasets[0].data = chart_data;
+      data.datasets[0].data = chart_data1;
       data.labels = chart_labels;
       myChartData1.update();
     });
     //RIO DE JANEIRO RECUPERADOS
     $('#1').click(function () {
-      var chart_data2 = [25397, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data1 = [25397, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData1.config.data;
-      data.datasets[0].data = chart_data2;
+      data.datasets[0].data = chart_data1;
       data.labels = chart_labels;
       myChartData1.update();
     });
     //SÃO MATEUS RECUPERADOS
     $('#2').click(function () {
-      var chart_data2 = [65, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data1 = [65, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData1.config.data;
-      data.datasets[0].data = chart_data2;
+      data.datasets[0].data = chart_data1;
       data.labels = chart_labels;
       myChartData1.update();
     });
     //EMPRESA AFASTADOS
     $('#3').click(function () {
-      var chart_data2 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data1 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData1.config.data;
-      data.datasets[0].data = chart_data2;
+      data.datasets[0].data = chart_data1;
       data.labels = chart_labels;
       myChartData1.update();
     });
@@ -694,97 +694,9 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data2 = [49, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data3 = [49, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosFuncSaude').getContext('2d');
-
-    var gradientStroke = ctx.createLinearGradient(0, 230, 0, 50);
-
-    gradientStroke.addColorStop(1, 'rgba(72,72,176,0.1)');
-    gradientStroke.addColorStop(0.4, 'rgba(72,72,176,0.0)');
-    gradientStroke.addColorStop(0, 'rgba(119,52,169,0)'); //purple colors
-    var config = {
-      type: 'line',
-      data: {
-        labels: chart_labels,
-        datasets: [
-          {
-            label: 'Total de casos: ',
-            fill: true,
-            backgroundColor: gradientStroke,
-            borderColor: '#ff0d30',
-            borderWidth: 2,
-            borderDash: [],
-            borderDashOffset: 0.0,
-            pointBackgroundColor: '#ff0d30',
-            pointBorderColor: 'rgba(255,255,255,0)',
-            pointHoverBackgroundColor: '#ff0d30',
-            pointBorderWidth: 20,
-            pointHoverRadius: 4,
-            pointHoverBorderWidth: 15,
-            pointRadius: 4,
-            data: chart_data2,
-          },
-        ],
-      },
-      options: gradientChartOptionsConfigurationWithTooltipPurple,
-    };
-    var myChartData2 = new Chart(ctx, config);
-    $('#0').click(function () {
-      var data = myChartData2.config.data;
-      data.datasets[0].data = chart_data;
-      data.labels = chart_labels;
-      myChartData2.update();
-    });
-    //RIO DE JANEIRO FUNCIONÁRIOS DA SAÚDE
-    $('#1').click(function () {
-      var chart_data2 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-      var data = myChartData2.config.data;
-      data.datasets[0].data = chart_data2;
-      data.labels = chart_labels;
-      myChartData2.update();
-    });
-    //SÃO MATEUS FUNCIONÁRIOS DA SAÚDE
-    $('#2').click(function () {
-      var chart_data2 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-      var data = myChartData2.config.data;
-      data.datasets[0].data = chart_data2;
-      data.labels = chart_labels;
-      myChartData2.update();
-    });
-    //EMPRESA FUNCIONÁRIOS DA SAÚDE
-    $('#3').click(function () {
-      var chart_data2 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-      var data = myChartData2.config.data;
-      data.datasets[0].data = chart_data2;
-      data.labels = chart_labels;
-      myChartData2.update();
-    });
-    //**************************************************************************
-    //CASOS UTI
-    var myChart = new Chart(ctxGreen, {
-      type: 'line',
-      data: data,
-      options: gradientChartOptionsConfigurationWithTooltipGreen,
-    });
-
-    var chart_labels = [
-      '21',
-      '22',
-      '23',
-      '24',
-      '25',
-      '26',
-      '27',
-      '28',
-      '29',
-      '30',
-      '31',
-      '32',
-    ];
-    var chart_data3 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-
-    var ctx = document.getElementById('grafCasosUTI').getContext('2d');
 
     var gradientStroke = ctx.createLinearGradient(0, 230, 0, 50);
 
@@ -817,40 +729,39 @@ demo = {
       },
       options: gradientChartOptionsConfigurationWithTooltipPurple,
     };
-    var myChartData3 = new Chart(ctx, config);
+    var myChartData2 = new Chart(ctx, config);
     $('#0').click(function () {
-      var data = myChartData3.config.data;
-      data.datasets[0].data = chart_data;
+      var data = myChartData2.config.data;
+      data.datasets[0].data = chart_data3;
       data.labels = chart_labels;
-      myChartData3.update();
+      myChartData2.update();
     });
-    //RIO DE JANEIRO CASOS UTI
+    //RIO DE JANEIRO FUNCIONÁRIOS DA SAÚDE
     $('#1').click(function () {
-      var chart_data2 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-      var data = myChartData3.config.data;
-      data.datasets[0].data = chart_data2;
+      var chart_data3 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var data = myChartData2.config.data;
+      data.datasets[0].data = chart_data3;
       data.labels = chart_labels;
-      myChartData3.update();
+      myChartData2.update();
     });
-    //SÃO MATEUS CASOS UTI
+    //SÃO MATEUS FUNCIONÁRIOS DA SAÚDE
     $('#2').click(function () {
-      var chart_data2 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-      var data = myChartData3.config.data;
-      data.datasets[0].data = chart_data2;
+      var chart_data3 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var data = myChartData2.config.data;
+      data.datasets[0].data = chart_data3;
       data.labels = chart_labels;
-      myChartData3.update();
+      myChartData2.update();
     });
-    //EMPRESA CASOS UTI
+    //EMPRESA FUNCIONÁRIOS DA SAÚDE
     $('#3').click(function () {
-      var chart_data2 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-      var data = myChartData3.config.data;
-      data.datasets[0].data = chart_data2;
+      var chart_data3 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var data = myChartData2.config.data;
+      data.datasets[0].data = chart_data3;
       data.labels = chart_labels;
-      myChartData3.update();
+      myChartData2.update();
     });
-
     //**************************************************************************
-    //CASOS DE ÓBITOS
+    //CASOS UTI
     var myChart = new Chart(ctxGreen, {
       type: 'line',
       data: data,
@@ -871,9 +782,9 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data4 = [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data4 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
-    var ctx = document.getElementById('grafCasosObitos').getContext('2d');
+    var ctx = document.getElementById('grafCasosUTI').getContext('2d');
 
     var gradientStroke = ctx.createLinearGradient(0, 230, 0, 50);
 
@@ -906,36 +817,125 @@ demo = {
       },
       options: gradientChartOptionsConfigurationWithTooltipPurple,
     };
-    var myChartData4 = new Chart(ctx, config);
+    var myChartData3 = new Chart(ctx, config);
     $('#0').click(function () {
-      var data = myChartData4.config.data;
-      data.datasets[0].data = chart_data;
+      var data = myChartData3.config.data;
+      data.datasets[0].data = chart_data4;
       data.labels = chart_labels;
-      myChartData4.update();
+      myChartData3.update();
+    });
+    //RIO DE JANEIRO CASOS UTI
+    $('#1').click(function () {
+      var chart_data4 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var data = myChartData3.config.data;
+      data.datasets[0].data = chart_data4;
+      data.labels = chart_labels;
+      myChartData3.update();
+    });
+    //SÃO MATEUS CASOS UTI
+    $('#2').click(function () {
+      var chart_data4 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var data = myChartData3.config.data;
+      data.datasets[0].data = chart_data4;
+      data.labels = chart_labels;
+      myChartData3.update();
+    });
+    //EMPRESA CASOS UTI
+    $('#3').click(function () {
+      var chart_data4 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var data = myChartData3.config.data;
+      data.datasets[0].data = chart_data4;
+      data.labels = chart_labels;
+      myChartData3.update();
+    });
+
+    //**************************************************************************
+    //CASOS DE ÓBITOS
+    var myChart = new Chart(ctxGreen, {
+      type: 'line',
+      data: data,
+      options: gradientChartOptionsConfigurationWithTooltipGreen,
+    });
+
+    var chart_labels = [
+      '21',
+      '22',
+      '23',
+      '24',
+      '25',
+      '26',
+      '27',
+      '28',
+      '29',
+      '30',
+      '31',
+      '32',
+    ];
+    var chart_data5 = [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+
+    var ctx = document.getElementById('grafCasosObitos').getContext('2d');
+
+    var gradientStroke = ctx.createLinearGradient(0, 230, 0, 50);
+
+    gradientStroke.addColorStop(1, 'rgba(72,72,176,0.1)');
+    gradientStroke.addColorStop(0.4, 'rgba(72,72,176,0.0)');
+    gradientStroke.addColorStop(0, 'rgba(119,52,169,0)'); //purple colors
+    var config = {
+      type: 'line',
+      data: {
+        labels: chart_labels,
+        datasets: [
+          {
+            label: 'Total de casos: ',
+            fill: true,
+            backgroundColor: gradientStroke,
+            borderColor: '#ff0d30',
+            borderWidth: 2,
+            borderDash: [],
+            borderDashOffset: 0.0,
+            pointBackgroundColor: '#ff0d30',
+            pointBorderColor: 'rgba(255,255,255,0)',
+            pointHoverBackgroundColor: '#ff0d30',
+            pointBorderWidth: 20,
+            pointHoverRadius: 4,
+            pointHoverBorderWidth: 15,
+            pointRadius: 4,
+            data: chart_data5,
+          },
+        ],
+      },
+      options: gradientChartOptionsConfigurationWithTooltipPurple,
+    };
+    var myChartData5 = new Chart(ctx, config);
+    $('#0').click(function () {
+      var data = myChartData5.config.data;
+      data.datasets[0].data = chart_data5;
+      data.labels = chart_labels;
+      myChartData5.update();
     });
     //RIO DE JANEIRO CASOS DE ÓBITOS
     $('#1').click(function () {
-      var chart_data2 = [3237, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-      var data = myChartData4.config.data;
-      data.datasets[0].data = chart_data2;
+      var chart_data5 = [3237, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var data = myChartData5.config.data;
+      data.datasets[0].data = chart_data5;
       data.labels = chart_labels;
-      myChartData4.update();
+      myChartData5.update();
     });
     //SÃO MATEUS CASOS DE ÓBITOS
     $('#2').click(function () {
-      var chart_data2 = [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-      var data = myChartData4.config.data;
-      data.datasets[0].data = chart_data2;
+      var chart_data5 = [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var data = myChartData5.config.data;
+      data.datasets[0].data = chart_data5;
       data.labels = chart_labels;
-      myChartData4.update();
+      myChartData5.update();
     });
     //EMPRESA CASOS DE ÓBITOS
     $('#3').click(function () {
-      var chart_data2 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-      var data = myChartData4.config.data;
-      data.datasets[0].data = chart_data2;
+      var chart_data5 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var data = myChartData5.config.data;
+      data.datasets[0].data = chart_data5;
       data.labels = chart_labels;
-      myChartData4.update();
+      myChartData5.update();
     });
   },
   showNotification: function (from, align) {
