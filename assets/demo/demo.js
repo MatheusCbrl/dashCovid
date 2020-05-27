@@ -413,7 +413,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [0, 0, 0, 118, 5, 0, 0],
+          data: [0, 0, 0, 0,0, 0, 0],
         },
       ],
     };
@@ -451,7 +451,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [0, 0, 0, 131, 0, 0, 0],
+          data: [40, 0, 21,0, 0, 0, 0],
         },
       ],
     };
@@ -489,7 +489,7 @@ demo = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 4,
-            data: [0, 0, 0, 30372, 0, 0, 0],
+            data: [0, 0, 0, 0, 0, 0, 0],
           },
         ],
       },
@@ -562,7 +562,7 @@ demo = {
     });
     //RIO DE JANEIRO CONFIRMADOS
     $('#1').click(function () {
-      var chart_data = [30372, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data = [30732, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData.config.data;
       data.datasets[0].data = chart_data;
       data.labels = chart_labels;
@@ -570,7 +570,7 @@ demo = {
     });
     //SÃO MATEUS CONFIRMADOS
     $('#2').click(function () {
-      var chart_data = [131, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data = [131, 61, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData.config.data;
       data.datasets[0].data = chart_data;
       data.labels = chart_labels;
@@ -658,7 +658,7 @@ demo = {
     });
     //SÃO MATEUS RECUPERADOS
     $('#2').click(function () {
-      var chart_data1 = [65, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data1 = [65, 52, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData1.config.data;
       data.datasets[0].data = chart_data1;
       data.labels = chart_labels;
