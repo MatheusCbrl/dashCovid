@@ -607,7 +607,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data5 = [7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data5 = [7, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosAfastadosEmp').getContext('2d');
 
@@ -659,7 +659,7 @@ demo = {
     });
     //SÃO MATEUS AFASTADOS
     $('#2').click(function () {
-      var chart_data5 = [11, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data5 = [11, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData5.config.data;
       data.datasets[0].data = chart_data5;
       data.labels = chart_labels;
