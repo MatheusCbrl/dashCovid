@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
+    .content {
+
+        display: flex;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .data-view {
+        width: 100%;
+        padding: 15px;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 1px;
+        font-size: 1.0em;
+    }
+
+    .table {
+        font-family: 'Work Sans', monospace;
+        text-align: left;
+    }
+
+    .search{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title-header {
+        margin-top: 20px;
+        font-size: 1.3em;
+        margin-bottom: -30px;
+        font-family: 'Work Sans', monospace;
+        color: white;
+    }
+
+    .grid {
+        display: grid;
+    }
+
+    .grid-template-areas {
+        grid-template-rows: 200px 100%;
+        grid-template-areas:
+            "search"
+            "content"
+            ;
+    }
+
+    .searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: rgba(23, 23, 24, 0.05);
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: black;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    font-family: 'Work Sans', monospace;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 550px;
+    caret-color:#ffffff;
+    transition: width 0.5s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background:#ffffff;
+    color: #2222;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #ffffff;
+    text-decoration:none;
+    }
