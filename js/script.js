@@ -123,27 +123,31 @@ function renderCitiesList(cities) {
         } = item
 
         const cityHTML = `
-        <table class="table table-black">
-        <tr>
-            <th>CIDADE</th>
-            <th>ESTADO</th>
-            <th>CÓDIGO DO IBGE</th>
-            <th>CASOS</th>
-            <th>MORTALIDADE</th>
-            <th>MORTES</th>
-            <th>POPULAÇÃO</th>
-            <th>ATUALIZAÇÃO</th>
-        </tr>
-        <tr>
-            <td>${city}</td>
-            <td>${state}</td>
-            <td>${ibge_code}</td>
-            <td>${cases}</td>
-            <td>${mortality}</td>
-            <td>${deaths}</td>
-            <td>${population}</td>
-            <td>${date}</td>
-         </tr>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>CIDADE</th>
+                    <th>ESTADO</th>
+                    <th>CÓDIGO DO IBGE</th>
+                    <th>CASOS</th>
+                    <th>MORTALIDADE</th>
+                    <th>MORTES</th>
+                    <th>POPULAÇÃO</th>
+                    <th>ATUALIZAÇÃO</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>${city}</td>
+                    <td>${state}</td>
+                    <td>${ibge_code}</td>
+                    <td>${cases}</td>
+                    <td>${mortality}</td>
+                    <td>${deaths}</td>
+                    <td>${population}</td>
+                    <td>${date}</td>
+                </tr>
+            </tbody>
         </table>
         `
         citiesHTML += cityHTML
