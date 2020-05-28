@@ -493,7 +493,7 @@ demo = {
           },
         ],
       },
-      options: gradientBarChartConfiguration,
+      options: gradientChartOptionsConfigurationWithTooltipPurple,
     });
 
     //**************************************************************************
