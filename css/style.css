@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:#c21fd8;
+}
+    
 
     .content {
 
         display: flex;
-        height: 100%;
-        width: 100%;
         flex-direction: column;
 
     }
@@ -58,13 +64,13 @@
     margin-bottom: auto;
     margin-top: auto;
     height: 60px;
-    background-color: rgba(23, 23, 24, 0.05);
+    background-color: white;
     border-radius: 30px;
     padding: 10px;
     }
 
     .search_input{
-    color: black;
+    color: rgb(173, 22, 211);
     border: 0;
     outline: 0;
     background: none;
@@ -83,7 +89,7 @@
     }
 
     .searchbar:hover > .search_icon{
-    background:#ffffff;
+    background: white;
     color: #2222;
     }
 
@@ -95,6 +101,6 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    color: #ffffff;
+    color: #c21fd8;
     text-decoration:none;
     }
