@@ -607,7 +607,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data5 = [7, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data5 = [7, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosAfastadosEmp').getContext('2d');
 
@@ -696,7 +696,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data1 = [16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data1 = [16, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosRecuperados').getContext('2d');
 
