@@ -413,7 +413,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [0, 0, 143, 0,0, 0, 0],
+          data: [0, 0, 143, 9, 0, 0, 0],
         },
       ],
     };
@@ -451,7 +451,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [40, 0, 21,0, 0, 0, 0],
+          data: [40, 0, 21, 8, 0, 0, 0],
         },
       ],
     };
@@ -518,7 +518,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data = [123, 143, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data = [123, 152, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosConfirmados').getContext('2d');
 
@@ -570,7 +570,7 @@ demo = {
     });
     //SÃO MATEUS CONFIRMADOS
     $('#2').click(function () {
-      var chart_data = [131, 61, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data = [131, 69, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData.config.data;
       data.datasets[0].data = chart_data;
       data.labels = chart_labels;
@@ -606,7 +606,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data1 = [80, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data1 = [80, 84, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosRecuperados').getContext('2d');
 
@@ -658,7 +658,7 @@ demo = {
     });
     //SÃO MATEUS RECUPERADOS
     $('#2').click(function () {
-      var chart_data1 = [65, 52, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data1 = [65, 43, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData1.config.data;
       data.datasets[0].data = chart_data1;
       data.labels = chart_labels;
@@ -694,7 +694,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data3 = [49, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data3 = [49, 52, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosFuncSaude').getContext('2d');
 
@@ -782,7 +782,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data4 = [0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data4 = [0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosUTI').getContext('2d');
 
