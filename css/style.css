@@ -1,59 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
-body{
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color:#c21fd8;
-}
-    
-
-    .content {
-
-        display: flex;
-        flex-direction: column;
-
-    }
 
     .data-view {
-        width: 100%;
         padding: 15px;
-        height: 100%;
-        width: 100%;
         flex-direction: column;
         margin-top: 1px;
         font-size: 1.0em;
     }
 
-    .table {
-        font-family: 'Work Sans', monospace;
-        text-align: left;
-    }
-
     .search{
-        width: 100%;
-        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .title-header {
-        margin-top: 20px;
-        font-size: 1.3em;
-        margin-bottom: -30px;
-        font-family: 'Work Sans', monospace;
-        color: white;
-    }
-
     .grid {
-        display: grid;
+        display: block;
     }
 
     .grid-template-areas {
-        grid-template-rows: 200px 100%;
+        grid-template-rows: 10px auto;
         grid-template-areas:
             "search"
             "content"
@@ -82,8 +49,8 @@ body{
     }
 
     .searchbar:hover > .search_input{
-    padding: 0 10px;
-    width: 550px;
+    padding: auto 5px;
+    width: 200px;
     caret-color:#ffffff;
     transition: width 0.5s linear;
     }
