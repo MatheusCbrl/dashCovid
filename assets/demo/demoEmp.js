@@ -489,7 +489,7 @@ demo = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 4,
-            data: [0, 0, 0, 12, 0, 0, 0],
+            data: [0, 0, 0, 0, 0, 0, 0],
           },
         ],
       },
@@ -607,7 +607,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data5 = [7, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data5 = [7, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosAfastadosEmp').getContext('2d');
 
@@ -696,7 +696,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data1 = [16, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data1 = [16, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosRecuperados').getContext('2d');
 
