@@ -123,7 +123,7 @@ function renderCitiesList(cities) {
         } = item
 
         const cityHTML = `
-        <table class="table">
+        <table class="table table table-responsive-sm">
             <thead>
                 <tr>
                     <th>CIDADE</th>
