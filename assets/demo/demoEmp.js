@@ -451,7 +451,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [1, 0, 0, 0, 0, 0, 0],
+          data: [0, 0, 0, 0, 0, 0, 0],
         },
       ],
     };
@@ -651,7 +651,7 @@ demo = {
     });
     //RIO DE JANEIRO AFASTADOS
     $('#1').click(function () {
-      var chart_data5 = [31, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data5 = [31, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData5.config.data;
       data.datasets[0].data = chart_data5;
       data.labels = chart_labels;
@@ -659,7 +659,7 @@ demo = {
     });
     //SÃO MATEUS AFASTADOS
     $('#2').click(function () {
-      var chart_data5 = [11, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data5 = [11, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData5.config.data;
       data.datasets[0].data = chart_data5;
       data.labels = chart_labels;
@@ -740,7 +740,7 @@ demo = {
     });
     //RIO DE JANEIRO RECUPERADOS
     $('#1').click(function () {
-      var chart_data1 = [29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data1 = [29, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData1.config.data;
       data.datasets[0].data = chart_data1;
       data.labels = chart_labels;
