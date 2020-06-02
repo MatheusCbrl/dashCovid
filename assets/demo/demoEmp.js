@@ -489,7 +489,7 @@ demo = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 4,
-            data: [0, 0, 0, 0, 0, 0, 0],
+            data: [5, 4, 0, 0, 0, 0, 0],
           },
         ],
       },
@@ -562,7 +562,7 @@ demo = {
     });
     //RIO DE JANEIRO CONFIRMADOS
     $('#1').click(function () {
-      var chart_data = [12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data = [0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData.config.data;
       data.datasets[0].data = chart_data;
       data.labels = chart_labels;
@@ -607,7 +607,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data5 = [7, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data5 = [7, 9, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosAfastadosEmp').getContext('2d');
 
@@ -651,7 +651,7 @@ demo = {
     });
     //RIO DE JANEIRO AFASTADOS
     $('#1').click(function () {
-      var chart_data5 = [31, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data5 = [0, 0, 24, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData5.config.data;
       data.datasets[0].data = chart_data5;
       data.labels = chart_labels;
@@ -659,7 +659,7 @@ demo = {
     });
     //SÃO MATEUS AFASTADOS
     $('#2').click(function () {
-      var chart_data5 = [11, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data5 = [11, 16, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData5.config.data;
       data.datasets[0].data = chart_data5;
       data.labels = chart_labels;
@@ -696,7 +696,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data1 = [16, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data1 = [16, 21, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosRecuperados').getContext('2d');
 
@@ -740,7 +740,7 @@ demo = {
     });
     //RIO DE JANEIRO RECUPERADOS
     $('#1').click(function () {
-      var chart_data1 = [29, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data1 = [0, 0, 73, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData1.config.data;
       data.datasets[0].data = chart_data1;
       data.labels = chart_labels;
