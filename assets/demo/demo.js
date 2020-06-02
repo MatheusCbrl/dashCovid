@@ -413,7 +413,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [180, 0, 0, 0, 0, 0, 0],
+          data: [180, 13, 0, 0, 0, 0, 0],
         },
       ],
     };
@@ -451,7 +451,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [6, 0, 0, 0, 0, 0, 0],
+          data: [6, 20, 0, 0, 0, 0, 0],
         },
       ],
     };
@@ -518,7 +518,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data = [123, 156, 180, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data = [123, 156, 193, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosConfirmados').getContext('2d');
 
@@ -570,7 +570,7 @@ demo = {
     });
     //SÃO MATEUS CONFIRMADOS
     $('#2').click(function () {
-      var chart_data = [131, 78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data = [131, 78, 26, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData.config.data;
       data.datasets[0].data = chart_data;
       data.labels = chart_labels;
@@ -606,7 +606,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data1 = [80, 101, 108, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data1 = [80, 101, 115, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosRecuperados').getContext('2d');
 
@@ -658,7 +658,7 @@ demo = {
     });
     //SÃO MATEUS RECUPERADOS
     $('#2').click(function () {
-      var chart_data1 = [65, 45, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data1 = [65, 45, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData1.config.data;
       data.datasets[0].data = chart_data1;
       data.labels = chart_labels;
@@ -694,7 +694,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data3 = [49, 56, 62, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data3 = [49, 56, 65, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosFuncSaude').getContext('2d');
 
@@ -782,7 +782,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data4 = [0, 13, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data4 = [0, 13, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosUTI').getContext('2d');
 
@@ -923,7 +923,7 @@ demo = {
     });
     //SÃO MATEUS CASOS DE ÓBITOS
     $('#2').click(function () {
-      var chart_data5 = [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data5 = [2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData5.config.data;
       data.datasets[0].data = chart_data5;
       data.labels = chart_labels;
