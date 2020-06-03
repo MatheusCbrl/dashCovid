@@ -413,7 +413,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [180, 13, 0, 0, 0, 0, 0],
+          data: [180, 13, 13, 0, 0, 0, 0],
         },
       ],
     };
@@ -518,7 +518,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data = [123, 156, 193, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data = [123, 156, 206, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosConfirmados').getContext('2d');
 
@@ -606,7 +606,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data1 = [80, 101, 115, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data1 = [80, 101, 122, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosRecuperados').getContext('2d');
 
@@ -694,7 +694,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data3 = [49, 56, 65, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data3 = [49, 56, 72, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosFuncSaude').getContext('2d');
 
@@ -782,7 +782,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data4 = [0, 13, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data4 = [0, 13, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosUTI').getContext('2d');
 
@@ -871,7 +871,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data5 = [3, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data5 = [3, 4, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosObitos').getContext('2d');
 
