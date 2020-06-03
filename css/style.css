@@ -1,73 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
+.data-view {
+  padding: 15px;
+  flex-direction: column;
+  margin-top: 1px;
+  font-size: 1em;
+}
 
-    .data-view {
-        padding: 15px;
-        flex-direction: column;
-        margin-top: 1px;
-        font-size: 1.0em;
-    }
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-    .search{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+.grid {
+  display: block;
+}
 
-    .grid {
-        display: block;
-    }
+.grid-template-areas {
+  grid-template-rows: 10px auto;
+  grid-template-areas:
+    'search'
+    'content';
+}
 
-    .grid-template-areas {
-        grid-template-rows: 10px auto;
-        grid-template-areas:
-            "search"
-            "content"
-            ;
-    }
+.searchbar {
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 60px;
+  background-color: rgb(39, 41, 61);
+  border-radius: 30px;
+  padding: 10px;
+}
 
-    .searchbar{
-    margin-bottom: auto;
-    margin-top: auto;
-    height: 60px;
-    background-color: white;
-    border-radius: 30px;
-    padding: 10px;
-    }
+.search_input {
+  color: rgb(255, 255, 255);
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color: transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+  font-family: 'Work Sans', monospace;
+}
 
-    .search_input{
-    color: rgb(173, 22, 211);
-    border: 0;
-    outline: 0;
-    background: none;
-    width: 0;
-    caret-color:transparent;
-    line-height: 40px;
-    transition: width 0.4s linear;
-    font-family: 'Work Sans', monospace;
-    }
+.searchbar:hover > .search_input {
+  padding: auto 5px;
+  width: 200px;
+  caret-color: rgb(39, 41, 61);
+  transition: width 0.5s linear;
+}
 
-    .searchbar:hover > .search_input{
-    padding: auto 5px;
-    width: 200px;
-    caret-color:#ffffff;
-    transition: width 0.5s linear;
-    }
+.searchbar:hover > .search_icon {
+  background: rgb(64, 67, 93);
+}
 
-    .searchbar:hover > .search_icon{
-    background: white;
-    color: #2222;
-    }
-
-    .search_icon{
-    height: 40px;
-    width: 40px;
-    float: right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    color: #c21fd8;
-    text-decoration:none;
-    }
+.search_icon {
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #ffffff;
+  text-decoration: none;
+}
