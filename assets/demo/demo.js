@@ -413,7 +413,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [180, 13, 13, 0, 0, 0, 0],
+          data: [180, 13, 13, 15, 0, 0, 0],
         },
       ],
     };
@@ -451,7 +451,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [6, 20, 4, 0, 0, 0, 0],
+          data: [6, 20, 4, 26, 0, 0, 0],
         },
       ],
     };
@@ -518,7 +518,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data = [123, 156, 206, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data = [123, 156, 221, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosConfirmados').getContext('2d');
 
@@ -570,7 +570,7 @@ demo = {
     });
     //SÃO MATEUS CONFIRMADOS
     $('#2').click(function () {
-      var chart_data = [131, 78, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data = [131, 78, 56, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData.config.data;
       data.datasets[0].data = chart_data;
       data.labels = chart_labels;
