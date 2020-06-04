@@ -489,7 +489,7 @@ demo = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 4,
-            data: [5, 4, 4, 2, 0, 0, 0],
+            data: [5, 4, 6, 0, 0, 0, 0],
           },
         ],
       },
@@ -651,7 +651,7 @@ demo = {
     });
     //RIO DE JANEIRO AFASTADOS
     $('#1').click(function () {
-      var chart_data5 = [0, 0, 41, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data5 = [0, 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData5.config.data;
       data.datasets[0].data = chart_data5;
       data.labels = chart_labels;
