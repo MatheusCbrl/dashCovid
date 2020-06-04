@@ -489,7 +489,7 @@ demo = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 4,
-            data: [0, 54420, 0, 0, 0, 0, 0],
+            data: [0, 54420, 4820, 0, 0, 0, 0],
           },
         ],
       },
@@ -650,7 +650,7 @@ demo = {
     });
     //RIO DE JANEIRO RECUPERADOS
     $('#1').click(function () {
-      var chart_data1 = [25397, 0, 40355, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data1 = [25397, 0, 43836, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData1.config.data;
       data.datasets[0].data = chart_data1;
       data.labels = chart_labels;
@@ -826,7 +826,7 @@ demo = {
     });
     //RIO DE JANEIRO CASOS UTI
     $('#1').click(function () {
-      var chart_data4 = [0, 0, 4445, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data4 = [0, 0, 4873, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData3.config.data;
       data.datasets[0].data = chart_data4;
       data.labels = chart_labels;
@@ -915,7 +915,7 @@ demo = {
     });
     //RIO DE JANEIRO CASOS DE ÓBITOS
     $('#1').click(function () {
-      var chart_data5 = [3237, 4361, 5079, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data5 = [3237, 4361, 6010, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData5.config.data;
       data.datasets[0].data = chart_data5;
       data.labels = chart_labels;
