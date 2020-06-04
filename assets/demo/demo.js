@@ -1,4 +1,8 @@
 window.addEventListener('load', () => {
+  DataAtualizacao = document.querySelector('#DataAtualizacao');
+  DataAtualizacao.innerHTML = 'Atualizado: 04/06/2020 - 9:25';
+
+  
   //Tabela Caxias do sul
   confCaxias = document.querySelector('#confCaxias');
   confCaxias.innerHTML = 221;
