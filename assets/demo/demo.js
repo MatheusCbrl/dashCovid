@@ -1,3 +1,48 @@
+window.addEventListener('load', () => {
+  //Tabela Caxias do sul
+  confCaxias = document.querySelector('#confCaxias');
+  confCaxias.innerHTML = 221;
+  recuCaxias = document.querySelector('#recuCaxias');
+  recuCaxias.innerHTML = 128;
+  funcCaxias = document.querySelector('#funcCaxias');
+  funcCaxias.innerHTML = 73;
+  utiCaxias = document.querySelector('#utiCaxias');
+  utiCaxias.innerHTML = 13;
+  SuspCaxias = document.querySelector('#SuspCaxias');
+  SuspCaxias.innerHTML = 3;
+  ObtCaxias = document.querySelector('#ObtCaxias');
+  ObtCaxias.innerHTML = 5;
+  //Tabela Rio de Janeiro
+
+  confRio = document.querySelector('#confRio');
+  confRio.innerHTML = 59240;
+  recuRio = document.querySelector('#recuRio');
+  recuRio.innerHTML = 'NÃO CONTABILIZA';
+  funcRio = document.querySelector('#funcRio');
+  funcRio.innerHTML = 'NÃO CONTABILIZA';
+  utiRio = document.querySelector('#utiRio');
+  utiRio.innerHTML = 4873;
+  SuspRio = document.querySelector('#SuspRio');
+  SuspRio.innerHTML = 'NÃO CONTABILIZA';
+  ObtRio = document.querySelector('#ObtRio');
+  ObtRio.innerHTML = 6010;
+  //TabelaSão Mateus
+  confSM = document.querySelector('#confSM');
+  confSM.innerHTML = 265;
+  recuSM = document.querySelector('#recuSM');
+  recuSM.innerHTML = 131;
+  funcSM = document.querySelector('#funcSM');
+  funcSM.innerHTML = 'NÃO CONTABILIZA';
+  utiSM = document.querySelector('#utiSM');
+  utiSM.innerHTML = 'NÃO CONTABILIZA';
+  SuspSM = document.querySelector('#SuspSM');
+  SuspSM.innerHTML = 'NÃO CONTABILIZA';
+  ObtSM = document.querySelector('#ObtSM');
+  ObtSM.innerHTML = 3;
+  console.log('Preemchendo Tabela...');
+});
+
+
 type = ['primary', 'info', 'success', 'warning', 'danger'];
 
 demo = {
