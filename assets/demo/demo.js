@@ -500,7 +500,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [6, 20, 4, 26, 0, 0, 0],
+          data: [6, 20, 4, 26, 8, 0, 0],
         },
       ],
     };
@@ -619,7 +619,7 @@ demo = {
     });
     //SÃO MATEUS CONFIRMADOS
     $('#2').click(function () {
-      var chart_data = [131, 78, 56, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data = [131, 78, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData.config.data;
       data.datasets[0].data = chart_data;
       data.labels = chart_labels;
@@ -707,7 +707,7 @@ demo = {
     });
     //SÃO MATEUS RECUPERADOS
     $('#2').click(function () {
-      var chart_data1 = [65, 45, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data1 = [65, 45, 59, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData1.config.data;
       data.datasets[0].data = chart_data1;
       data.labels = chart_labels;
