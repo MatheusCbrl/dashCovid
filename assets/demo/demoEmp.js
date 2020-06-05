@@ -1,6 +1,6 @@
 window.addEventListener('load', () => {
   DataAtualizacao = document.querySelector('#DataAtualizacao');
-  DataAtualizacao.innerHTML = 'Atualizado: 04/06/2020 - 9:25';
+  DataAtualizacao.innerHTML = 'Atualizado: 05/06/2020 - 9:25';
 
   //Tabela Caxias do sul
   confCaxias = document.querySelector('#confCaxias');
@@ -15,9 +15,9 @@ window.addEventListener('load', () => {
   SuspRio.innerHTML = 11;
   //TabelaSão Mateus
   confSM = document.querySelector('#confSM');
-  confSM.innerHTML = 1;
+  confSM.innerHTML = 2;
   SuspSM = document.querySelector('#SuspSM');
-  SuspSM.innerHTML = 29;
+  SuspSM.innerHTML = 31;
 
   console.log('Preemchendo Tabela...');
 });
@@ -683,7 +683,7 @@ demo = {
     });
     //SÃO MATEUS AFASTADOS
     $('#2').click(function () {
-      var chart_data5 = [11, 16, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data5 = [11, 16, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData5.config.data;
       data.datasets[0].data = chart_data5;
       data.labels = chart_labels;
