@@ -17,7 +17,7 @@ window.addEventListener('load', () => {
   confSM = document.querySelector('#confSM');
   confSM.innerHTML = 1;
   SuspSM = document.querySelector('#SuspSM');
-  SuspSM.innerHTML = 29;
+  SuspSM.innerHTML = 31;
 
   console.log('Preemchendo Tabela...');
 });
