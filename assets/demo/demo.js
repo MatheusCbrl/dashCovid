@@ -1,6 +1,6 @@
 window.addEventListener('load', () => {
   DataAtualizacao = document.querySelector('#DataAtualizacao');
-  DataAtualizacao.innerHTML = 'Atualizado: 04/06/2020 - 9:25';
+  DataAtualizacao.innerHTML = 'Atualizado: 05/06/2020 - 9:25';
 
   
   //Tabela Caxias do sul
@@ -32,9 +32,9 @@ window.addEventListener('load', () => {
   ObtRio.innerHTML = 6010;
   //TabelaSão Mateus
   confSM = document.querySelector('#confSM');
-  confSM.innerHTML = 265;
+  confSM.innerHTML = 273;
   recuSM = document.querySelector('#recuSM');
-  recuSM.innerHTML = 131;
+  recuSM.innerHTML = 169;
   funcSM = document.querySelector('#funcSM');
   funcSM.innerHTML = 'NÃO CONTABILIZA';
   utiSM = document.querySelector('#utiSM');
