@@ -462,7 +462,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [180, 13, 13, 15, 0, 0, 0],
+          data: [180, 26, 15, 18, 0, 0, 0],
         },
       ],
     };
@@ -567,7 +567,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data = [123, 156, 221, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data = [123, 156, 239, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosConfirmados').getContext('2d');
 
@@ -611,7 +611,7 @@ demo = {
     });
     //RIO DE JANEIRO CONFIRMADOS
     $('#1').click(function () {
-      var chart_data = [30732, 39296, 54420, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data = [30732, 39296, 60932, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData.config.data;
       data.datasets[0].data = chart_data;
       data.labels = chart_labels;
@@ -655,7 +655,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data1 = [80, 101, 122, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data1 = [80, 101, 138, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosRecuperados').getContext('2d');
 
@@ -743,7 +743,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data3 = [49, 56, 72, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data3 = [49, 56, 81, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosFuncSaude').getContext('2d');
 
@@ -831,7 +831,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data4 = [0, 13, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data4 = [0, 13, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosUTI').getContext('2d');
 
