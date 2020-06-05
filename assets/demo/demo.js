@@ -32,9 +32,9 @@ window.addEventListener('load', () => {
   ObtRio.innerHTML = 6327;
   //TabelaSão Mateus
   confSM = document.querySelector('#confSM');
-  confSM.innerHTML = 265;
+  confSM.innerHTML = 276;
   recuSM = document.querySelector('#recuSM');
-  recuSM.innerHTML = 131;
+  recuSM.innerHTML = 169;
   funcSM = document.querySelector('#funcSM');
   funcSM.innerHTML = 'NÃO CONTABILIZA';
   utiSM = document.querySelector('#utiSM');
@@ -500,7 +500,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [6, 20, 4, 26, 8, 0, 0],
+          data: [6, 20, 4, 26, 11, 0, 0],
         },
       ],
     };
