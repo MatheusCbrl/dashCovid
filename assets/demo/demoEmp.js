@@ -475,7 +475,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [0, 0, 1, 0, 0, 0, 0],
+          data: [2, 0, 0, 0, 0, 0, 0],
         },
       ],
     };
@@ -594,7 +594,7 @@ demo = {
     });
     //SÃO MATEUS CONFIRMADOS
     $('#2').click(function () {
-      var chart_data = [0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data = [0, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData.config.data;
       data.datasets[0].data = chart_data;
       data.labels = chart_labels;
@@ -631,7 +631,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data5 = [7, 9, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data5 = [7, 9, 12, 15, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosAfastadosEmp').getContext('2d');
 
@@ -683,7 +683,7 @@ demo = {
     });
     //SÃO MATEUS AFASTADOS
     $('#2').click(function () {
-      var chart_data5 = [11, 16, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data5 = [11, 16, 4, -18, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData5.config.data;
       data.datasets[0].data = chart_data5;
       data.labels = chart_labels;
