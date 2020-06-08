@@ -5,13 +5,13 @@ window.addEventListener('load', () => {
   
   //Tabela Caxias do sul
   confCaxias = document.querySelector('#confCaxias');
-  confCaxias.innerHTML = 239;
+  confCaxias.innerHTML = 267;
   recuCaxias = document.querySelector('#recuCaxias');
-  recuCaxias.innerHTML = 138;
+  recuCaxias.innerHTML = 149;
   funcCaxias = document.querySelector('#funcCaxias');
-  funcCaxias.innerHTML = 81;
+  funcCaxias.innerHTML = 89;
   utiCaxias = document.querySelector('#utiCaxias');
-  utiCaxias.innerHTML = 11;
+  utiCaxias.innerHTML = 24;
   SuspCaxias = document.querySelector('#SuspCaxias');
   SuspCaxias.innerHTML = 6;
   ObtCaxias = document.querySelector('#ObtCaxias');
@@ -19,9 +19,9 @@ window.addEventListener('load', () => {
   //Tabela Rio de Janeiro
 
   confRio = document.querySelector('#confRio');
-  confRio.innerHTML = 60932;
+  confRio.innerHTML = 67756;
   recuRio = document.querySelector('#recuRio');
-  recuRio.innerHTML = 45319;
+  recuRio.innerHTML = 51546;
   funcRio = document.querySelector('#funcRio');
   funcRio.innerHTML = 'NÃO CONTABILIZA';
   utiRio = document.querySelector('#utiRio');
@@ -29,10 +29,10 @@ window.addEventListener('load', () => {
   SuspRio = document.querySelector('#SuspRio');
   SuspRio.innerHTML = 'NÃO CONTABILIZA';
   ObtRio = document.querySelector('#ObtRio');
-  ObtRio.innerHTML = 6327;
+  ObtRio.innerHTML = 4462;
   //TabelaSão Mateus
   confSM = document.querySelector('#confSM');
-  confSM.innerHTML = 276;
+  confSM.innerHTML = 295;
   recuSM = document.querySelector('#recuSM');
   recuSM.innerHTML = 169;
   funcSM = document.querySelector('#funcSM');
@@ -42,7 +42,7 @@ window.addEventListener('load', () => {
   SuspSM = document.querySelector('#SuspSM');
   SuspSM.innerHTML = 'NÃO CONTABILIZA';
   ObtSM = document.querySelector('#ObtSM');
-  ObtSM.innerHTML = 3;
+  ObtSM.innerHTML = 4;
   console.log('Preemchendo Tabela...');
 });
 
