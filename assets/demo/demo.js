@@ -1,6 +1,6 @@
 window.addEventListener('load', () => {
   DataAtualizacao = document.querySelector('#DataAtualizacao');
-  DataAtualizacao.innerHTML = 'Atualizado: 05/06/2020 - 9:25';
+  DataAtualizacao.innerHTML = 'Atualizado: 08/06/2020 - 9:25';
 
   
   //Tabela Caxias do sul
@@ -462,7 +462,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [180, 26, 15, 18, 0, 0, 0],
+          data: [267, 0, 0, 0, 0, 0, 0],
         },
       ],
     };
@@ -500,7 +500,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [6, 20, 4, 26, 11, 0, 0],
+          data: [19, 0, 0, 0, 0, 0, 0],
         },
       ],
     };
@@ -538,7 +538,7 @@ demo = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 4,
-            data: [0, 54420, 4820, 0, 0, 0, 0],
+            data: [0, 0, 0, 0, 0, 0, 0],
           },
         ],
       },
@@ -567,7 +567,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data = [123, 156, 239, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data = [123, 156, 239, 267, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosConfirmados').getContext('2d');
 
@@ -611,7 +611,7 @@ demo = {
     });
     //RIO DE JANEIRO CONFIRMADOS
     $('#1').click(function () {
-      var chart_data = [30732, 39296, 60932, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data = [30732, 39296, 59240, 67756, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData.config.data;
       data.datasets[0].data = chart_data;
       data.labels = chart_labels;
@@ -619,7 +619,7 @@ demo = {
     });
     //SÃO MATEUS CONFIRMADOS
     $('#2').click(function () {
-      var chart_data = [131, 78, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data = [131, 78, 67, 19, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData.config.data;
       data.datasets[0].data = chart_data;
       data.labels = chart_labels;
@@ -655,7 +655,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data1 = [80, 101, 138, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data1 = [80, 101, 138, 149, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosRecuperados').getContext('2d');
 
@@ -699,7 +699,7 @@ demo = {
     });
     //RIO DE JANEIRO RECUPERADOS
     $('#1').click(function () {
-      var chart_data1 = [25397, 0, 43836, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data1 = [25397, 0, 43836, 51546, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData1.config.data;
       data.datasets[0].data = chart_data1;
       data.labels = chart_labels;
@@ -743,7 +743,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data3 = [49, 56, 81, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data3 = [49, 56, 81, 89, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosFuncSaude').getContext('2d');
 
@@ -831,7 +831,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data4 = [0, 13, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data4 = [0, 13, 17, 24, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosUTI').getContext('2d');
 
@@ -920,7 +920,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data5 = [3, 4, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data5 = [3, 4, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosObitos').getContext('2d');
 
@@ -964,7 +964,7 @@ demo = {
     });
     //RIO DE JANEIRO CASOS DE ÓBITOS
     $('#1').click(function () {
-      var chart_data5 = [3237, 4361, 6010, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data5 = [3237, 4361, 6010, 4462, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData5.config.data;
       data.datasets[0].data = chart_data5;
       data.labels = chart_labels;
@@ -972,7 +972,7 @@ demo = {
     });
     //SÃO MATEUS CASOS DE ÓBITOS
     $('#2').click(function () {
-      var chart_data5 = [2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data5 = [2, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData5.config.data;
       data.datasets[0].data = chart_data5;
       data.labels = chart_labels;
