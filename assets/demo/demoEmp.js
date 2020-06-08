@@ -6,18 +6,18 @@ window.addEventListener('load', () => {
   confCaxias = document.querySelector('#confCaxias');
   confCaxias.innerHTML = 0;
   SuspCaxias = document.querySelector('#SuspCaxias');
-  SuspCaxias.innerHTML = 12;
+  SuspCaxias.innerHTML = 15;
   //Tabela Rio de Janeiro
 
   confRio = document.querySelector('#confRio');
-  confRio.innerHTML = 2;
+  confRio.innerHTML = 1;
   SuspRio = document.querySelector('#SuspRio');
-  SuspRio.innerHTML = 8;
+  SuspRio.innerHTML = 7;
   //TabelaSão Mateus
   confSM = document.querySelector('#confSM');
-  confSM.innerHTML = 1;
+  confSM.innerHTML = 4;
   SuspSM = document.querySelector('#SuspSM');
-  SuspSM.innerHTML = 31;
+  SuspSM.innerHTML = 13;
 
   console.log('Preemchendo Tabela...');
 });
