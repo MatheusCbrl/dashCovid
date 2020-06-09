@@ -1,6 +1,6 @@
 window.addEventListener('load', () => {
   DataAtualizacao = document.querySelector('#DataAtualizacao');
-  DataAtualizacao.innerHTML = 'Atualizado: 08/06/2020 - 9:25';
+  DataAtualizacao.innerHTML = 'Atualizado: 09/06/2020 - 9:25';
 
   //Tabela Caxias do sul
   confCaxias = document.querySelector('#confCaxias');
@@ -475,7 +475,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [2, 0, 0, 0, 0, 0, 0],
+          data: [2, -1, 0, 0, 0, 0, 0],
         },
       ],
     };
@@ -594,7 +594,7 @@ demo = {
     });
     //SÃO MATEUS CONFIRMADOS
     $('#2').click(function () {
-      var chart_data = [0, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data = [0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData.config.data;
       data.datasets[0].data = chart_data;
       data.labels = chart_labels;
@@ -683,7 +683,7 @@ demo = {
     });
     //SÃO MATEUS AFASTADOS
     $('#2').click(function () {
-      var chart_data5 = [11, 16, 4, -18, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data5 = [11, 16, 4, -13, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData5.config.data;
       data.datasets[0].data = chart_data5;
       data.labels = chart_labels;
@@ -720,7 +720,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data1 = [16, 21, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data1 = [16, 21, 25, 25, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosRecuperados').getContext('2d');
 
