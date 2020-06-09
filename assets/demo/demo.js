@@ -1,13 +1,13 @@
 window.addEventListener('load', () => {
   DataAtualizacao = document.querySelector('#DataAtualizacao');
-  DataAtualizacao.innerHTML = 'Atualizado: 08/06/2020 - 9:25';
+  DataAtualizacao.innerHTML = 'Atualizado: 09/06/2020 - 9:25';
 
   
   //Tabela Caxias do sul
   confCaxias = document.querySelector('#confCaxias');
-  confCaxias.innerHTML = 267;
+  confCaxias.innerHTML = 284;
   recuCaxias = document.querySelector('#recuCaxias');
-  recuCaxias.innerHTML = 149;
+  recuCaxias.innerHTML = 167;
   funcCaxias = document.querySelector('#funcCaxias');
   funcCaxias.innerHTML = 89;
   utiCaxias = document.querySelector('#utiCaxias');
@@ -15,7 +15,7 @@ window.addEventListener('load', () => {
   SuspCaxias = document.querySelector('#SuspCaxias');
   SuspCaxias.innerHTML = 8;
   ObtCaxias = document.querySelector('#ObtCaxias');
-  ObtCaxias.innerHTML = 5;
+  ObtCaxias.innerHTML = 6;
   //Tabela Rio de Janeiro
 
   confRio = document.querySelector('#confRio');
@@ -462,7 +462,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [267, 0, 0, 0, 0, 0, 0],
+          data: [267, 17, 0, 0, 0, 0, 0],
         },
       ],
     };
@@ -500,7 +500,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [19, 0, 0, 0, 0, 0, 0],
+          data: [19, 11, 0, 0, 0, 0, 0],
         },
       ],
     };
@@ -567,7 +567,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data = [123, 156, 239, 267, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data = [123, 156, 239, 284, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosConfirmados').getContext('2d');
 
@@ -619,7 +619,7 @@ demo = {
     });
     //SÃO MATEUS CONFIRMADOS
     $('#2').click(function () {
-      var chart_data = [131, 78, 67, 19, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data = [131, 78, 67, 30, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData.config.data;
       data.datasets[0].data = chart_data;
       data.labels = chart_labels;
@@ -707,7 +707,7 @@ demo = {
     });
     //SÃO MATEUS RECUPERADOS
     $('#2').click(function () {
-      var chart_data1 = [65, 45, 59, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data1 = [65, 45, 59, 3, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData1.config.data;
       data.datasets[0].data = chart_data1;
       data.labels = chart_labels;
@@ -920,7 +920,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data5 = [3, 4, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data5 = [3, 4, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosObitos').getContext('2d');
 
