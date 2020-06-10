@@ -4,7 +4,7 @@ window.addEventListener('load', () => {
 
   //Tabela Caxias do sul
   confCaxias = document.querySelector('#confCaxias');
-  confCaxias.innerHTML = 0;
+  confCaxias.innerHTML = 1;
   recCaxias = document.querySelector('#recCaxias');
   recCaxias.innerHTML = "-";
   SuspCaxias = document.querySelector('#SuspCaxias');
@@ -443,7 +443,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [0, 0, 0, 0, 0, 0, 0],
+          data: [0, 0, 1, 0, 0, 0, 0],
         },
       ],
     };
@@ -548,7 +548,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data = [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosConfirmados').getContext('2d');
 
@@ -637,7 +637,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data5 = [7, 9, 12, 15, 0, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data5 = [7, 9, 12, 10, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosAfastadosEmp').getContext('2d');
 
