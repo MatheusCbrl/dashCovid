@@ -32,9 +32,9 @@ window.addEventListener('load', () => {
   ObtRio.innerHTML = 6781;
   //TabelaSão Mateus
   confSM = document.querySelector('#confSM');
-  confSM.innerHTML = 295;
+  confSM.innerHTML = 335;
   recuSM = document.querySelector('#recuSM');
-  recuSM.innerHTML = 169;
+  recuSM.innerHTML = 195;
   funcSM = document.querySelector('#funcSM');
   funcSM.innerHTML = 'NÃO CONTABILIZA';
   utiSM = document.querySelector('#utiSM');
@@ -500,7 +500,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [19, 11, 0, 0, 0, 0, 0],
+          data: [19, 11, 29, 0, 0, 0, 0],
         },
       ],
     };
@@ -619,7 +619,7 @@ demo = {
     });
     //SÃO MATEUS CONFIRMADOS
     $('#2').click(function () {
-      var chart_data = [131, 78, 67, 30, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data = [131, 78, 67, 59, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData.config.data;
       data.datasets[0].data = chart_data;
       data.labels = chart_labels;
