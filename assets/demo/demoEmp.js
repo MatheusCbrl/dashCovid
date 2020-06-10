@@ -23,7 +23,7 @@ window.addEventListener('load', () => {
   recSM = document.querySelector('#recSM');
   recSM.innerHTML = 1;
   SuspSM = document.querySelector('#SuspSM');
-  SuspSM.innerHTML = 21;
+  SuspSM.innerHTML = 17;
 
   console.log('Preemchendo Tabela...');
 });
@@ -689,7 +689,7 @@ demo = {
     });
     //SÃO MATEUS AFASTADOS
     $('#2').click(function () {
-      var chart_data5 = [11, 16, 4, -13, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data5 = [11, 16, 4, -14, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData5.config.data;
       data.datasets[0].data = chart_data5;
       data.labels = chart_labels;
