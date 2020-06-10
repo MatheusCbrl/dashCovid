@@ -16,14 +16,14 @@ window.addEventListener('load', () => {
   recRio = document.querySelector('#recRio');
   recRio.innerHTML = "-";
   SuspRio = document.querySelector('#SuspRio');
-  SuspRio.innerHTML = 4;
+  SuspRio.innerHTML = 3;
   //TabelaSão Mateus
   confSM = document.querySelector('#confSM');
   confSM.innerHTML = 3;
   recSM = document.querySelector('#recSM');
   recSM.innerHTML = 1;
   SuspSM = document.querySelector('#SuspSM');
-  SuspSM.innerHTML = 17;
+  SuspSM.innerHTML = 20;
 
   console.log('Preemchendo Tabela...');
 });
