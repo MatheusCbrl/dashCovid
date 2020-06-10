@@ -25,7 +25,7 @@ window.addEventListener('load', () => {
   funcRio = document.querySelector('#funcRio');
   funcRio.innerHTML = 'NÃO CONTABILIZA';
   utiRio = document.querySelector('#utiRio');
-  utiRio.innerHTML = 'NÃO INFORMADO';
+  utiRio.innerHTML = 5568;
   SuspRio = document.querySelector('#SuspRio');
   SuspRio.innerHTML = 'NÃO CONTABILIZA';
   ObtRio = document.querySelector('#ObtRio');
@@ -875,7 +875,7 @@ demo = {
     });
     //RIO DE JANEIRO CASOS UTI
     $('#1').click(function () {
-      var chart_data4 = [0, 0, 4873, 5462, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data4 = [0, 0, 4873, 5568, 0, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData3.config.data;
       data.datasets[0].data = chart_data4;
       data.labels = chart_labels;
