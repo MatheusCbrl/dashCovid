@@ -4,7 +4,7 @@ window.addEventListener('load', () => {
 
   //Tabela Caxias do sul
   confCaxias = document.querySelector('#confCaxias');
-  confCaxias.innerHTML = 1;
+  confCaxias.innerHTML = 0;
   recCaxias = document.querySelector('#recCaxias');
   recCaxias.innerHTML = "-";
   SuspCaxias = document.querySelector('#SuspCaxias');
@@ -19,11 +19,11 @@ window.addEventListener('load', () => {
   SuspRio.innerHTML = 3;
   //TabelaSão Mateus
   confSM = document.querySelector('#confSM');
-  confSM.innerHTML = 3;
+  confSM.innerHTML = 0;
   recSM = document.querySelector('#recSM');
-  recSM.innerHTML = 1;
+  recSM.innerHTML = "-";
   SuspSM = document.querySelector('#SuspSM');
-  SuspSM.innerHTML = 20;
+  SuspSM.innerHTML = 10;
 
   console.log('Preemchendo Tabela...');
 });
