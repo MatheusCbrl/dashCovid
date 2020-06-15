@@ -500,7 +500,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [19, 11, 29, 0, 0, 0, 0],
+          data: [20, 0, 0, 0, 0, 0, 0],
         },
       ],
     };
@@ -619,7 +619,7 @@ demo = {
     });
     //SÃO MATEUS CONFIRMADOS
     $('#2').click(function () {
-      var chart_data = [131, 78, 67, 59, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data = [131, 78, 67, 73, 20, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData.config.data;
       data.datasets[0].data = chart_data;
       data.labels = chart_labels;
@@ -707,7 +707,7 @@ demo = {
     });
     //SÃO MATEUS RECUPERADOS
     $('#2').click(function () {
-      var chart_data1 = [65, 45, 59, 16, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data1 = [65, 45, 59, 24, 7, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData1.config.data;
       data.datasets[0].data = chart_data1;
       data.labels = chart_labels;
@@ -972,7 +972,7 @@ demo = {
     });
     //SÃO MATEUS CASOS DE ÓBITOS
     $('#2').click(function () {
-      var chart_data5 = [2, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data5 = [2, 0, 1, 5, 2, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData5.config.data;
       data.datasets[0].data = chart_data5;
       data.labels = chart_labels;
