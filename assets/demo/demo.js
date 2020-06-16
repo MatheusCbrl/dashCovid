@@ -5,17 +5,17 @@ window.addEventListener('load', () => {
   
   //Tabela Caxias do sul
   confCaxias = document.querySelector('#confCaxias');
-  confCaxias.innerHTML = 350;
+  confCaxias.innerHTML = 422;
   recuCaxias = document.querySelector('#recuCaxias');
-  recuCaxias.innerHTML = 203;
+  recuCaxias.innerHTML = 212;
   funcCaxias = document.querySelector('#funcCaxias');
-  funcCaxias.innerHTML = 97;
+  funcCaxias.innerHTML = 98;
   utiCaxias = document.querySelector('#utiCaxias');
-  utiCaxias.innerHTML = 25;
+  utiCaxias.innerHTML = 30;
   SuspCaxias = document.querySelector('#SuspCaxias');
   SuspCaxias.innerHTML = 6;
   ObtCaxias = document.querySelector('#ObtCaxias');
-  ObtCaxias.innerHTML = 6;
+  ObtCaxias.innerHTML = 7;
   //Tabela Rio de Janeiro
 
   confRio = document.querySelector('#confRio');
@@ -462,7 +462,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [350, 0, 0, 0, 0, 0, 0],
+          data: [350, 72, 0, 0, 0, 0, 0],
         },
       ],
     };
@@ -655,7 +655,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data1 = [80, 101, 138, 175, 203, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data1 = [80, 101, 138, 175, 212, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosRecuperados').getContext('2d');
 
@@ -743,7 +743,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data3 = [49, 56, 81, 94, 97, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data3 = [49, 56, 81, 94, 98, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosFuncSaude').getContext('2d');
 
@@ -831,7 +831,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data4 = [0, 13, 17, 25, 31, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data4 = [0, 13, 17, 25, 30, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosUTI').getContext('2d');
 
@@ -920,7 +920,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data5 = [3, 4, 5, 6, 6, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data5 = [3, 4, 5, 6, 7, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosObitos').getContext('2d');
 
