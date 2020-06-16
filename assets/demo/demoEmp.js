@@ -637,7 +637,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data5 = [7, 9, 12, 10, 10, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data5 = [7, 9, 12, 10, 13, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosAfastadosEmp').getContext('2d');
 
