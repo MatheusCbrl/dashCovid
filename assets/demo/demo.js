@@ -1,6 +1,6 @@
 window.addEventListener('load', () => {
   DataAtualizacao = document.querySelector('#DataAtualizacao');
-  DataAtualizacao.innerHTML = 'Atualizado: 09/06/2020 - 9:25';
+  DataAtualizacao.innerHTML = 'Atualizado: 16/06/2020 - 9:25';
 
   
   //Tabela Caxias do sul
@@ -11,30 +11,31 @@ window.addEventListener('load', () => {
   funcCaxias = document.querySelector('#funcCaxias');
   funcCaxias.innerHTML = 98;
   utiCaxias = document.querySelector('#utiCaxias');
-  utiCaxias.innerHTML = 30;
+  utiCaxias.innerHTML = 22;
   SuspCaxias = document.querySelector('#SuspCaxias');
-  SuspCaxias.innerHTML = 6;
+  SuspCaxias.innerHTML = 8;
   ObtCaxias = document.querySelector('#ObtCaxias');
   ObtCaxias.innerHTML = 7;
+  
   //Tabela Rio de Janeiro
-
   confRio = document.querySelector('#confRio');
-  confRio.innerHTML = 79572;
+  confRio.innerHTML = 80946;
   recuRio = document.querySelector('#recuRio');
-  recuRio.innerHTML = 63817;
+  recuRio.innerHTML = 65063;
   funcRio = document.querySelector('#funcRio');
-  funcRio.innerHTML = 'NÃO CONTABILIZA';
+  funcRio.innerHTML = 6217;
   utiRio = document.querySelector('#utiRio');
   utiRio.innerHTML = 6180;
   SuspRio = document.querySelector('#SuspRio');
   SuspRio.innerHTML = 'NÃO CONTABILIZA';
   ObtRio = document.querySelector('#ObtRio');
-  ObtRio.innerHTML = 7672;
+  ObtRio.innerHTML = 7728;
+  
   //TabelaSão Mateus
   confSM = document.querySelector('#confSM');
-  confSM.innerHTML = 369;
+  confSM.innerHTML = 381;
   recuSM = document.querySelector('#recuSM');
-  recuSM.innerHTML = 203;
+  recuSM.innerHTML = 214;
   funcSM = document.querySelector('#funcSM');
   funcSM.innerHTML = 'NÃO CONTABILIZA';
   utiSM = document.querySelector('#utiSM');
