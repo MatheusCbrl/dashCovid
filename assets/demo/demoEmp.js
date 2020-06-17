@@ -1,6 +1,6 @@
 window.addEventListener('load', () => {
   DataAtualizacao = document.querySelector('#DataAtualizacao');
-  DataAtualizacao.innerHTML = 'Atualizado: 16/06/2020 - 9:25';
+  DataAtualizacao.innerHTML = 'Atualizado: 17/06/2020 - 9:25';
 
   //Tabela Caxias do sul
   confCaxias = document.querySelector('#confCaxias');
@@ -8,15 +8,15 @@ window.addEventListener('load', () => {
   recCaxias = document.querySelector('#recCaxias');
   recCaxias.innerHTML = "-";
   SuspCaxias = document.querySelector('#SuspCaxias');
-  SuspCaxias.innerHTML = 13;
+  SuspCaxias.innerHTML = 7;
   
   //Tabela Rio de Janeiro
   confRio = document.querySelector('#confRio');
-  confRio.innerHTML = 1;
+  confRio.innerHTML = 0;
   recRio = document.querySelector('#recRio');
   recRio.innerHTML = "-";
   SuspRio = document.querySelector('#SuspRio');
-  SuspRio.innerHTML = 2;
+  SuspRio.innerHTML = 3;
   
   //TabelaSão Mateus
   confSM = document.querySelector('#confSM');
@@ -24,7 +24,7 @@ window.addEventListener('load', () => {
   recSM = document.querySelector('#recSM');
   recSM.innerHTML = "-";
   SuspSM = document.querySelector('#SuspSM');
-  SuspSM.innerHTML = 13;
+  SuspSM.innerHTML = 12;
 
   console.log('Preenchendo Tabela...');
 });
