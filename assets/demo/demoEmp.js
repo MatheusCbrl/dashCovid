@@ -593,7 +593,7 @@ demo = {
     });
     //RIO DE JANEIRO CONFIRMADOS
     $('#1').click(function () {
-      var chart_data = [0, 30, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data = [0, 30, 15, 0, 1, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData.config.data;
       data.datasets[0].data = chart_data;
       data.labels = chart_labels;
@@ -638,7 +638,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data5 = [7, 9, 12, 10, 13, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data5 = [7, 9, 12, 10, 7, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosAfastadosEmp').getContext('2d');
 
@@ -682,7 +682,7 @@ demo = {
     });
     //RIO DE JANEIRO AFASTADOS
     $('#1').click(function () {
-      var chart_data5 = [0, 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data5 = [0, 0, 11, 0, 13, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData5.config.data;
       data.datasets[0].data = chart_data5;
       data.labels = chart_labels;
@@ -779,7 +779,7 @@ demo = {
     });
     //SÃO MATEUS RECUPERADOS
     $('#2').click(function () {
-      var chart_data1 = [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data1 = [0, 0, 1, 0, 3, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData1.config.data;
       data.datasets[0].data = chart_data1;
       data.labels = chart_labels;
