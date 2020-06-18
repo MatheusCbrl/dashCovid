@@ -1,41 +1,41 @@
 window.addEventListener('load', () => {
   DataAtualizacao = document.querySelector('#DataAtualizacao');
-  DataAtualizacao.innerHTML = 'Atualizado: 17/06/2020 - 9:25';
+  DataAtualizacao.innerHTML = 'Atualizado: 18/06/2020 - 9:25';
 
   
   //Tabela Caxias do sul
   confCaxias = document.querySelector('#confCaxias');
-  confCaxias.innerHTML = 453;
+  confCaxias.innerHTML = 505;
   recuCaxias = document.querySelector('#recuCaxias');
-  recuCaxias.innerHTML = 235;
+  recuCaxias.innerHTML = 287;
   funcCaxias = document.querySelector('#funcCaxias');
-  funcCaxias.innerHTML = 105;
+  funcCaxias.innerHTML = 109;
   utiCaxias = document.querySelector('#utiCaxias');
-  utiCaxias.innerHTML = 21;
+  utiCaxias.innerHTML = 18;
   SuspCaxias = document.querySelector('#SuspCaxias');
-  SuspCaxias.innerHTML = 4;
+  SuspCaxias.innerHTML = 2;
   ObtCaxias = document.querySelector('#ObtCaxias');
   ObtCaxias.innerHTML = 8;
   
   //Tabela Rio de Janeiro
   confRio = document.querySelector('#confRio');
-  confRio.innerHTML = 83343;
+  confRio.innerHTML = 86963;
   recuRio = document.querySelector('#recuRio');
-  recuRio.innerHTML = 67071;
+  recuRio.innerHTML = 69559;
   funcRio = document.querySelector('#funcRio');
   funcRio.innerHTML = 'NÃO CONTABILIZA';
   utiRio = document.querySelector('#utiRio');
-  utiRio.innerHTML = 6412;
+  utiRio.innerHTML = 6653;
   SuspRio = document.querySelector('#SuspRio');
   SuspRio.innerHTML = 'NÃO CONTABILIZA';
   ObtRio = document.querySelector('#ObtRio');
-  ObtRio.innerHTML = 7967;
+  ObtRio.innerHTML = 8138;
   
   //TabelaSão Mateus
   confSM = document.querySelector('#confSM');
-  confSM.innerHTML = 400;
+  confSM.innerHTML = 414;
   recuSM = document.querySelector('#recuSM');
-  recuSM.innerHTML = 214;
+  recuSM.innerHTML = 247;
   funcSM = document.querySelector('#funcSM');
   funcSM.innerHTML = 'NÃO CONTABILIZA';
   utiSM = document.querySelector('#utiSM');
@@ -43,7 +43,7 @@ window.addEventListener('load', () => {
   SuspSM = document.querySelector('#SuspSM');
   SuspSM.innerHTML = 'NÃO CONTABILIZA';
   ObtSM = document.querySelector('#ObtSM');
-  ObtSM.innerHTML = 11;
+  ObtSM.innerHTML = 13;
   console.log('vendo Tabela...');
 });
 
@@ -463,7 +463,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [350, 72, 31, 0, 0, 0, 0],
+          data: [350, 72, 31, 52, 0, 0, 0],
         },
       ],
     };
@@ -501,7 +501,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [20, 12, 0, 0, 0, 0, 0],
+          data: [20, 12, 33, 0, 0, 0, 0],
         },
       ],
     };
@@ -539,7 +539,7 @@ demo = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 4,
-            data: [79572, 1374, 2397, 0, 0, 0, 0],
+            data: [79572, 1374, 2397, 3620, 0, 0, 0],
           },
         ],
       },
@@ -568,7 +568,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data = [123, 156, 239, 300, 453, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data = [123, 156, 239, 300, 505, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosConfirmados').getContext('2d');
 
@@ -612,7 +612,7 @@ demo = {
     });
     //RIO DE JANEIRO CONFIRMADOS
     $('#1').click(function () {
-      var chart_data = [30732, 39298, 59240, 72929, 83343, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data = [30732, 39298, 59240, 72929, 86963, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData.config.data;
       data.datasets[0].data = chart_data;
       data.labels = chart_labels;
@@ -620,7 +620,7 @@ demo = {
     });
     //SÃO MATEUS CONFIRMADOS
     $('#2').click(function () {
-      var chart_data = [131, 78, 67, 73, 32, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data = [131, 78, 67, 73, 65, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData.config.data;
       data.datasets[0].data = chart_data;
       data.labels = chart_labels;
@@ -656,7 +656,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data1 = [80, 101, 138, 175, 235, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data1 = [80, 101, 138, 175, 287, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosRecuperados').getContext('2d');
 
@@ -700,7 +700,7 @@ demo = {
     });
     //RIO DE JANEIRO RECUPERADOS
     $('#1').click(function () {
-      var chart_data1 = [25397, 0, 43836, 53445, 67071, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data1 = [25397, 0, 43836, 53445, 69559, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData1.config.data;
       data.datasets[0].data = chart_data1;
       data.labels = chart_labels;
@@ -708,7 +708,7 @@ demo = {
     });
     //SÃO MATEUS RECUPERADOS
     $('#2').click(function () {
-      var chart_data1 = [65, 45, 59, 24, 7, 0, 0, 0, 0, 0, 0, 0];
+      var chart_data1 = [65, 45, 59, 24, 54, 0, 0, 0, 0, 0, 0, 0];
       var data = myChartData1.config.data;
       data.datasets[0].data = chart_data1;
       data.labels = chart_labels;
@@ -832,7 +832,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data4 = [0, 13, 17, 25, 25, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data4 = [0, 13, 17, 25, 20, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosUTI').getContext('2d');
 
