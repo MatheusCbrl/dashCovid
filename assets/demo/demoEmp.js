@@ -1,6 +1,6 @@
 window.addEventListener('load', () => {
   DataAtualizacao = document.querySelector('#DataAtualizacao');
-  DataAtualizacao.innerHTML = 'Atualizado: 17/06/2020 - 9:25';
+  DataAtualizacao.innerHTML = 'Atualizado: 18/06/2020 - 9:25';
 
   //Tabela Caxias do sul
   confCaxias = document.querySelector('#confCaxias');
@@ -8,7 +8,7 @@ window.addEventListener('load', () => {
   recCaxias = document.querySelector('#recCaxias');
   recCaxias.innerHTML = "-";
   SuspCaxias = document.querySelector('#SuspCaxias');
-  SuspCaxias.innerHTML = 7;
+  SuspCaxias.innerHTML = 12;
   
   //Tabela Rio de Janeiro
   confRio = document.querySelector('#confRio');
@@ -24,7 +24,7 @@ window.addEventListener('load', () => {
   recSM = document.querySelector('#recSM');
   recSM.innerHTML = "-";
   SuspSM = document.querySelector('#SuspSM');
-  SuspSM.innerHTML = 12;
+  SuspSM.innerHTML = 13;
 
   console.log('Preenchendo Tabela...');
 });
@@ -638,7 +638,7 @@ demo = {
       '31',
       '32',
     ];
-    var chart_data5 = [7, 9, 12, 10, 7, 0, 0, 0, 0, 0, 0, 0];
+    var chart_data5 = [7, 9, 12, 10, 12, 0, 0, 0, 0, 0, 0, 0];
 
     var ctx = document.getElementById('grafCasosAfastadosEmp').getContext('2d');
 
