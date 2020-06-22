@@ -8,7 +8,7 @@ window.addEventListener('load', () => {
   recCaxias = document.querySelector('#recCaxias');
   recCaxias.innerHTML = "-";
   SuspCaxias = document.querySelector('#SuspCaxias');
-  SuspCaxias.innerHTML = 14;
+  SuspCaxias.innerHTML = 16;
   
   //Tabela Rio de Janeiro
   confRio = document.querySelector('#confRio');
@@ -20,11 +20,11 @@ window.addEventListener('load', () => {
   
   //TabelaSão Mateus
   confSM = document.querySelector('#confSM');
-  confSM.innerHTML = 0;
+  confSM.innerHTML = 1;
   recSM = document.querySelector('#recSM');
   recSM.innerHTML = "-";
   SuspSM = document.querySelector('#SuspSM');
-  SuspSM.innerHTML = 13;
+  SuspSM.innerHTML = 8;
 
   console.log('Preenchendo Tabela...');
 });
