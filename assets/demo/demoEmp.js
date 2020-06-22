@@ -1,6 +1,6 @@
 window.addEventListener('load', () => {
   DataAtualizacao = document.querySelector('#DataAtualizacao');
-  DataAtualizacao.innerHTML = 'Atualizado: 18/06/2020 - 9:25';
+  DataAtualizacao.innerHTML = 'Atualizado: 22/06/2020 - 9:25';
 
   //Tabela Caxias do sul
   confCaxias = document.querySelector('#confCaxias');
@@ -8,7 +8,7 @@ window.addEventListener('load', () => {
   recCaxias = document.querySelector('#recCaxias');
   recCaxias.innerHTML = "-";
   SuspCaxias = document.querySelector('#SuspCaxias');
-  SuspCaxias.innerHTML = 12;
+  SuspCaxias.innerHTML = 14;
   
   //Tabela Rio de Janeiro
   confRio = document.querySelector('#confRio');
